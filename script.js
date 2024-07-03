@@ -8,7 +8,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
     // Example credentials for demonstration purposes
     if (username === 'admin' && password === '007') {
         // Successful login
-        document.getElementById('login-message').innerText = 'Welcome, Agent 007!';
+        document.getElementById('login-message').innerText = 'Welcome';
         // Redirect or perform other actions after login
         setTimeout(function() {
             window.location.href = 'admin-panel.html'; // Redirect to admin panel
